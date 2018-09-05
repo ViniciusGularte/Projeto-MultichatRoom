@@ -9,4 +9,12 @@ Sistema Segue o padrão MVC e possui um codigo limpo.
 
 Em breve melhorias no sistema.
 
-### Em desenvolvimento :chart_with_upwards_trend: 
+### Em desenvolvimento :chart_with_upwards_trend:
+
+## Instalação
+
+ Faça um clone ou baixe o repositorio.
+
+ Utilize o comando  <b>npm install</b> para instalar as dependências do projeto.
+
+ Depois só digitar <b>node app.js</b> e pronto :smile:, acesse localhost:3000 e seu chat estara rodando.
