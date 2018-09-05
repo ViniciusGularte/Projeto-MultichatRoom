@@ -1,6 +1,6 @@
 # Projeto Habitica Chat
 
-### Você pode testar apartir desse link <a href='https://habiticachat.herokuapp.com/'>https://habiticachat.herokuapp.com/</a>
+### Você pode testar a partir desse link <a href='https://habiticachat.herokuapp.com/'>https://habiticachat.herokuapp.com/</a>
 
 
 <img src='app/public/images/multiroom_chat_2.png'/>
