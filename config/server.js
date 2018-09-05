@@ -18,11 +18,11 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 app.use(expressValidator());
-consign({cwd: process.cwd()+"/app"})
 
-    .include('routes')
-    .then('controllers')
-    .into(app);
+consign({cwd: 'app'})
+  .include('controllers')
+  .then('routes')
+.into(app);
 
 
 
