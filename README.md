@@ -1,4 +1,4 @@
-# Projeto MultichatHabitica
+# Projeto Habitica Chat
 
 <img src='app/public/images/multiroom_chat_2.png'/>
 
@@ -8,3 +8,5 @@ falar com meus amigos do <a href='https://habitica.com/'>Habitica</a>.
 Sistema Segue o padrão MVC e possui um codigo limpo.
 
 Em breve melhorias no sistema.
+
+### Em desenvolvimento :chart_with_upwards_trend: 
