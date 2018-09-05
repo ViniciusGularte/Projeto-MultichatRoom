@@ -19,7 +19,7 @@ app.set('views', './app/views');
 app.use(express.static('./app/public'));
 app.use(expressValidator());
 
-consign({cwd: 'app'})
+consign({cwd: process.cwd() + '/app'})
   .include('controllers')
   .then('routes')
 .into(app);
