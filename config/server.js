@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 app.use(expressValidator());
-consign({ cwd: path.join(__dirname, '../app') })
+consign({ cwd: path.join(__dirname, '../') })
 
     .include('routes')
     .then('controllers')
