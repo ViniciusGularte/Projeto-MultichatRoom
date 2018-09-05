@@ -19,7 +19,8 @@ app.use(bodyParser.json());
 
 app.use(expressValidator());
 
-consign()
+consign({ cwd: process.cwd(),
+    locale: 'en-us'})
     .include('app/routes')
     .then('app/controllers')
     .into(app);
