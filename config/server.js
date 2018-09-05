@@ -1,5 +1,5 @@
 var express = require('express');
-const path = require('path');
+//const path = require('path');
 var consign = require('consign');
 
 var bodyParser = require('body-parser');
@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 app.use(expressValidator());
 
-consign({ cwd: path.join(__dirname, 'app') })
+consign({ cwd:(__dirname, 'app') })
     .include('routes')
     .then('controllers')
     .into(app);
